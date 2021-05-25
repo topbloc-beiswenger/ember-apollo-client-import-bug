@@ -5,6 +5,9 @@ module.exports = function (environment) {
     modulePrefix: 'ember-apollo-client-import-bug',
     environment,
     rootURL: '/',
+    apollo: {
+      apiURL: 'https://api.spacex.land/graphql/',
+    },
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
